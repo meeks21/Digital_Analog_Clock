@@ -15,6 +15,8 @@ let minPosition = (min*360/60) + (sec*(360/60)/60);
 let secPosition = sec*360/60;
 
 
+// this function manipulates the transform declartion in css to moves with the time in the date object
+
 
 function runTheClock(){
 

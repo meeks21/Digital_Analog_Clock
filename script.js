@@ -8,7 +8,7 @@ let hr = date.getHours();
 let min = date.getMinutes();
 let sec = date.getSeconds();
 
-console.log("Hours: " + hr + " Minutes: " + min + " seconds: " + sec)
+console.log("Hours left to party: " + hr + " Minutes: " + min + " seconds: " + sec)
 
 let hrPosition = (hr*360/12) + (min*360/60)/12;
 let minPosition = (min*360/60) + (sec*(360/60)/60);
